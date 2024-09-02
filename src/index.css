@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sevillana&display=swap');
+
+:root{
+
+
+    --yellow-theme-background-color : #c1bbbb;
+    --yellow-theme-main-color : #3b3a3a;
+    --yellow-theme-sub-text-color : #000000;
+    --yellow-theme-nav-background-color : #9f9d9d;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    background: var(--yellow-theme-background-color);
+    height: 100%;
+}
+
+#root{
+    height: 100%;
+}
